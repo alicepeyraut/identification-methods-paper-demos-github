@@ -44,5 +44,5 @@ dependencies:
 
 variables:
   - CPATH: /srv/conda/envs/notebook/include/vtk-9.2
-  - expart=2.5
+  - expat=2.5
   
