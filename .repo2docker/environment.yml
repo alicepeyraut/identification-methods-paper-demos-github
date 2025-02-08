@@ -43,6 +43,8 @@ dependencies:
     
 
 variables:
-  - CPATH: /srv/conda/envs/notebook/include/vtk-9.2
+  - CPATH: "/srv/conda/envs/notebook/include/vtk-9.2"
+  - CPLUS_INCLUDE_PATH: "/srv/conda/envs/notebook/include/vtk-9.2"
+  - C_INCLUDE_PATH: "/srv/conda/envs/notebook/include/vtk-9.2"
   - expat=2.5
   
