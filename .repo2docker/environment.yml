@@ -34,11 +34,9 @@ dependencies:
   - pip=22.2.2
   - pip:
   # computing stuff
-    - expat==2.5
-
   # mechanics stuff
     - dolfin_mech==2024.7.24
-    - dolfin-warp==2024.10.20
+    - dolfin-warp==2025.01.29
     - dolfin_estim==2024.7.25.post2
     
 
