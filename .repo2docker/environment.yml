@@ -10,6 +10,7 @@ dependencies:
   - numpy=1.23.1
   - python=3.10
   - scipy=1.10
+  - expat=2.5
 
 # jupyter
   - ipywidgets=8.0.1
@@ -44,5 +45,4 @@ dependencies:
 
 variables:
   - CPATH: "/srv/conda/envs/notebook/include/vtk-9.2"
-  - expat=2.5
   
