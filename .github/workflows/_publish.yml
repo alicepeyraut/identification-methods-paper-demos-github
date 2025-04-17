@@ -27,11 +27,11 @@ jobs:
               with:
                 python-version: '3.12'
 
-            - name: Install Expat 2.5
+            - name: Install Expat 2.5.0
               run: |
                 sudo apt update
                 sudo apt install -y build-essential wget
-                wget https://github.com/libexpat/libexpat/releases/tag/R_2_5_0/expat-2.5.0.tar.gz
+                wget https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.gz
                 tar -xzf expat-2.5.0.tar.gz
                 cd expat-2.5.0
                 ./configure
@@ -39,7 +39,6 @@ jobs:
                 sudo make install
                 echo "/usr/local/lib" | sudo tee -a /etc/ld.so.conf.d/expat.conf
                 sudo ldconfig
-
 
             - name: Install and build Jupyter Book
               run: |
