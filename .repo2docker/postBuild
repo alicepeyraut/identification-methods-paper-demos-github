@@ -20,10 +20,7 @@ cd
 echo "alias ll=\"ls -lh\"" >> ~/.bash_aliases
 echo "alias la=\"ls -lah\"" >> ~/.bash_aliases
 
-#!/bin/bash
-pip install --no-cache-dir --force-reinstall vtk==9.2.6
-export CPLUS_INCLUDE_PATH="/srv/conda/envs/notebook/include/vtk-9.2"
-export C_INCLUDE_PATH="/srv/conda/envs/notebook/include/vtk-9.2"
+export CPATH=$CPATH:"/srv/conda/envs/notebook/include/vtk-9.2" 
 
 rm ~/apt.txt
 rm ~/environment.yml
