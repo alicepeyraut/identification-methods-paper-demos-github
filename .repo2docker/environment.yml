@@ -10,6 +10,7 @@ dependencies:
   - numpy=1.23.1
   - python=3.10
   - scipy=1.10
+  - vtk=9.2
   
 
 # jupyter
@@ -21,11 +22,10 @@ dependencies:
   - jupyterlab=3.6
   - notebook=6.4.12
 
-# computing stuff
   - fenics=2019.1.0
   - gmsh=4.11
   - meshio=5.3
-  - vtk=9.2
+  
 
 # plotting stuff
   - matplotlib=3.7
@@ -41,5 +41,5 @@ dependencies:
     
 
 variables:
-  - CPATH: "/srv/conda/envs/notebook/include/vtk-9.2"
+    CPATH: /srv/conda/envs/notebook/include/vtk-9.2 
   
