@@ -5,11 +5,18 @@ channels:
   - defaults
 
 dependencies:
-# python
   - mpi4py=3.1.3
   - numpy=1.23.1
   - python=3.10
   - scipy=1.10  
+  - fenics=2019.1.0
+  - gmsh=4.11
+  - meshio=5.3
+  - matplotlib=3.7
+  - gnuplot=5.4
+  - expat = 2.5
+  - vtk = 9.2
+  
 
 # jupyter
   - ipywidgets=8.0.1
@@ -19,20 +26,10 @@ dependencies:
   - jupyter_nbextensions_configurator=0.6
   - jupyterlab=3.6
   - notebook=6.4.12
-
-  - fenics=2019.1.0
-  - gmsh=4.11
-  - meshio=5.3
   
-
-# plotting stuff
-  - matplotlib=3.7
-  - gnuplot=5.4
-
-  - pip=22.2.2
+  - pip
   - pip:
-  # computing stuff
-  # mechanics stuff
+  # computing
     - dolfin_mech==2024.7.24
     - dolfin-warp==2025.01.29
     - dolfin_estim==2024.7.25.post2
