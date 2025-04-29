@@ -40,7 +40,7 @@ latex:
 ############################################################# Launch settings ###
 
 repository:
-  url: https://github.com/alicepeyraut/identification-methods-paper-demos
+  url: https://github.com/alicepeyraut/identification-methods-paper-demos-github
   path_to_book: .
   branch: master
 
