@@ -2,4 +2,4 @@
 
 Interactive demos can be found at [https://alicepeyraut.github.io/identification-methods-paper-demos-github](https://alicepeyraut.github.io/identification-methods-paper-demos-github).
 
-(Main library can be found at [https://gitlab.inria.fr/mgenet/dolfin_mech](https://gitlab.inria.fr/mgenet/dolfin_mech).)
+(Main library can be found at [https://github.com/mgenet/dolfin_warp](https://github.com/mgenet/dolfin_warp).)
