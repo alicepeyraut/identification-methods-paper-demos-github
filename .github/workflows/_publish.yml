@@ -11,7 +11,7 @@ name: Build and Deploy Jupyter Book
 on:
   push:
     branches:
-      - main
+      - HEAD
   
 jobs:
     build_jupyterbook:
