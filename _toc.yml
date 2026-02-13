@@ -1,8 +1,6 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: index
+
 chapters:
 - file: demos/Fig6-7-8-9
 - file: demos/Fig10
