@@ -42,7 +42,7 @@ jobs:
 
             - name: Install and build Jupyter Book
               run: |
-                pip install -U jupyter-book
+                pip install -U jupyter-book==0.15.1
                 jupyter-book clean .
                 jupyter-book build .
     
